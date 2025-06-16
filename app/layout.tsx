@@ -8,11 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <h1>Header na Malupet</h1>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        <h1>Header na Malupet</h1>
+        {children}
       <footer>
       Footer na mas malupet
       </footer>
+      </body>
     </html>
   );
 }
